@@ -73,11 +73,10 @@ var column = row.selectAll(".square")
 		if ((d.click)%11 == 4 ) {d3.select(this).style("stroke-dasharray", "0,50, 50,50").style("stroke","black").style("stroke-width", 6); d.treatment=1; }
 		if ((d.click)%11 == 5 ) {d3.select(this).style("stroke-dasharray","50").style("stroke","black").style("stroke-width", 6); d.treatment=0; }
 		if ((d.click)%11 == 6 ) {d3.select(this).style("stroke-dasharray", "0,50,50,0" ).style("stroke","black").style("stroke-width", 6); d.treatment=1; }
-		if ((d.click)%11 == 7 ) {d3.select(this).style("stroke-dasharray", "0,100,150" ).style("stroke","black").style("stroke-width", 6); d.treatment=0; }
-		if ((d.click)%11 == 8 ) {d3.select(this).style("stroke-dasharray", "0,100,150" ).style("stroke","black").style("stroke-width", 6); d.treatment=1; }
-		if ((d.click)%11 == 9 ) {d3.select(this).style("stroke-dasharray", "0,50,50" ).style("stroke","black").style("stroke-width", 6); d.treatment=0; }
-		if ((d.click)%11 == 10 ) {d3.select(this).style("stroke-dasharray", "100").style("stroke","black").style("stroke-width", 6); d.treatment=1; }
-		if ((d.click)%11 == 11 ) {d3.select(this).style("stroke-dasharray", "50,100" ).style("stroke","black").style("stroke-width", 6); d.treatment=1; }
+		if ((d.click)%11 == 7 ) {d3.select(this).style("stroke-dasharray", "0,100,150" ).style("stroke","black").style("stroke-width", 6); d.treatment=1; }
+		if ((d.click)%11 == 8 ) {d3.select(this).style("stroke-dasharray", "0,50,50" ).style("stroke","black").style("stroke-width", 6); d.treatment=0; }
+		if ((d.click)%11 == 9 ) {d3.select(this).style("stroke-dasharray", "100").style("stroke","black").style("stroke-width", 6); d.treatment=1; }
+		if ((d.click)%11 == 10 ) {d3.select(this).style("stroke-dasharray", "50,100" ).style("stroke","black").style("stroke-width", 6); d.treatment=1; }
         });
 
 //https://codepen.io/lazd/pen/WNweNwy?editors=1010
