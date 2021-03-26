@@ -1,0 +1,13 @@
+rect { fill: none; stroke: red; }
+.topBottom { stroke-dasharray: 50 }
+.leftRight { stroke-dasharray: 0,50,50,0 }
+
+.bottomLeft { stroke-dasharray: 0,100,150 }
+.bottomRight { stroke-dasharray: 0,50,50 }
+.topRight { stroke-dasharray: 100 }
+.topLeft { stroke-dasharray: 50,100 }
+
+.left { stroke-dasharray: 0,150,50 }
+.top { stroke-dasharray: 50,150 }
+.bottom { stroke-dasharray: 0,100,50,100 }
+.right { stroke-dasharray: 0,50, 50,50 }
