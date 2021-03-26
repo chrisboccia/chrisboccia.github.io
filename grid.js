@@ -55,7 +55,7 @@ var column = row.selectAll(".square")
 	.attr("height", function(d) { return d.height; })
 	.style("fill", "#fff")
 	.style("stroke", "#EB984E")
-	.style("stroke-width", 4)
+	.style("stroke-width", 3)
 	.on('click', function(d2) {
        d2.click ++;
        if ((d2.click)%4 == 0 ) { d3.select(this).style("fill","#66ccff"); d2.treatment=0; }
@@ -66,7 +66,7 @@ var column = row.selectAll(".square")
 	.on("contextmenu", function (d, i) {
         d3.event.preventDefault();
 		d.click ++;
-        if ((d.click)%11 == 0 ) {d3.select(this).style("stroke-dasharray","0").style("stroke","#EB984E").style("stroke-width", 4); d.treatment=0; }
+        if ((d.click)%11 == 0 ) {d3.select(this).style("stroke-dasharray","0").style("stroke","#EB984E").style("stroke-width", 3); d.treatment=0; }
 		if ((d.click)%11 == 1 ) {d3.select(this).style("stroke-dasharray", "0,150,50").style("stroke","black").style("stroke-width", 6); d.treatment=0; }
 		if ((d.click)%11 == 2 ) {d3.select(this).style("stroke-dasharray", "50,150").style("stroke","black").style("stroke-width", 6); d.treatment=1; }
 		if ((d.click)%11 == 3 ) {d3.select(this).style("stroke-dasharray", "0,100,50,100").style("stroke","black").style("stroke-width", 6); d.treatment=0; }
