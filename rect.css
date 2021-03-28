@@ -11,3 +11,7 @@ rect { fill: none; stroke: red; }
 .top { stroke-dasharray: 50,150 }
 .bottom { stroke-dasharray: 0,100,50,100 }
 .right { stroke-dasharray: 0,50, 50,50 }
+
+table, th, td {
+  border: 1px solid black;
+}
